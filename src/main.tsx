@@ -9,15 +9,18 @@ import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './styles.css';
-
 import App from './App.tsx';
+import Navbar from './components/Navbar.tsx';
 import reportWebVitals from './reportWebVitals.ts';
+import './styles.css';
 
 const rootRoute = createRootRoute({
   component: () => (
     <>
-      <Outlet />
+      <div className="grid h-screen grid-cols-[300px_1fr]">
+        <Navbar />
+        <Outlet />
+      </div>
       <TanStackRouterDevtools />
     </>
   ),
