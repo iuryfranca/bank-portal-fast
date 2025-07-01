@@ -2,7 +2,8 @@
 
 Um portal bancário moderno desenvolvido com React, TypeScript e Vite. Esta aplicação oferece uma interface intuitiva para gerenciamento de carteiras digitais, visualização de transações e controle financeiro pessoal. Projeto feito apenas para treinar.
 
-![Bank Portal Preview](https://github.com/user-attachments/assets/your-image-preview)
+![Bank Portal Preview](https://github.com/user-attachments/assets/40aa0566-6c51-4726-9bd5-ce94cd34d2c5)
+
 
 ## Sobre o Projeto
 
